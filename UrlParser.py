@@ -8,10 +8,11 @@ class UrlParser:
         self.url = url
         self.__scan_result = requests.get(self.url)
         self.__DOM = BeautifulSoup(self.__scan_result.text, "html.parser")
-        self.__domain = re.findall(r"^(.+)\/", self.url)[0]
+        self.__domain = re.findall(r"^(?:\/\/|[^\/]+)*", self.url)[0]
         self.urls = []
         self.url_list()
         self.normalize_src()
+        print("NON FORMATED URLS", self.urls)
 
     def image_list(self):
         return self.__DOM.find_all("img")

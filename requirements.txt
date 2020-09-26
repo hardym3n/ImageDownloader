@@ -3,12 +3,17 @@ bs4==0.0.1
 certifi==2020.6.20
 cffi==1.14.3
 chardet==3.0.4
+click==7.1.2
 cssselect2==0.3.0
+Flask==1.1.2
 gevent==20.9.0
 greenlet==0.4.17
 grequests==0.6.0
 idna==2.10
+itsdangerous==1.1.0
+Jinja2==2.11.2
 lxml==4.5.2
+MarkupSafe==1.1.1
 numpy==1.19.2
 Pillow==7.2.0
 pycparser==2.20
@@ -20,5 +25,6 @@ soupsieve==2.0.1
 tinycss2==1.0.2
 urllib3==1.25.10
 webencodings==0.5.1
+Werkzeug==1.0.1
 zope.event==4.5.0
 zope.interface==5.1.0

@@ -9,8 +9,10 @@ from imageInfo import ImageInfo
 def request_fail(req, exception):
     print("Request Failed", req.url)
 
+
 create_urllib3_context()
-url2 = UrlParser("https://codippa.com/how-to-check-file-size-in-python-3-ways-to-find-out-size-of-file-in-python/")
+url = input("Enter URL: ").strip()
+url2 = UrlParser(url)
 info_urls = url2.urls
 print(info_urls)
 

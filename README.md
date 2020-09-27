@@ -14,7 +14,7 @@
   py -m venv venv
   env/scripts/activate
   ```
-1.запустить 
+запустить 
 ```
 python3 main.py
 
@@ -23,3 +23,14 @@ or
 py main.py
 ```
 
+Фронт
+
+скачать и установить node.js и npm
+
+перейти в каталог frontend
+
+```
+npm i
+
+npm run serve
+```

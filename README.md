@@ -1,28 +1,25 @@
 # ImageDownloader
-### Installation
+### Запуск
 
-1. Install python 3.8.2 or greater [python](https://www.python.org/), also install [pip](https://pip.pypa.io/en/latest/installing/)
-1. Install Python [venv](https://packaging.python.org/guides/installing-using-pip-and-virtual-environments/)
-1. Create virtual enviroment and activate it 
-```
-# LINUX
-python3 -m venv env
-. env/bin/activate
+1. Установить Python 3.8.2 или старше [python](https://www.python.org/) также установить pip [pip](https://pip.pypa.io/en/latest/installing/) (для винды в инсталяторе поставить галочку)
+1. Установить [venv](https://packaging.python.org/guides/installing-using-pip-and-virtual-environments/) 
+1. Активировать окружение 
+  ```
+  # LINUX
+  python3 -m venv venv
+  . env/bin/activate
 
-# WINDOWS
+  # WINDOWS
 
-py -m venv env
-env/scripts/activate
-```
-1. Download all packages from requirements.txt
-```
-pip install -r requirements.txt 
-```
-1. Run 
+  py -m venv venv
+  env/scripts/activate
+  ```
+1.запустить 
 ```
 python3 main.py
 
-or
+or 
 
 py main.py
 ```
+

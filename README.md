@@ -14,12 +14,14 @@
   py -m venv venv
   env/scripts/activate
   ```
-запустить 
+скачать пакеты и запустить 
 ```
+pip install -r requirements.txt
 python3 main.py
 
 or 
 
+pip install -r requirements.txt
 py main.py
 ```
 

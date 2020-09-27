@@ -23,8 +23,6 @@ class ImageInfo:
             ext = self.check_file_type().split()[0]
             print("EXT", ext)
             return {
-                "width": None,
-                "height": None,
                 "ext": ext,
                 "size": str(round(sys.getsizeof(self.request.content) / 1024, 2)) + " kB"
             }
